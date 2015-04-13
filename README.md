@@ -1,5 +1,7 @@
 # Android开发技术前线 ( android-tech-frontier )
-一个定期翻译、发布国内外Android优质的技术、开源库、软件架构设计、测试等文章的开源项目,让我们的技术跟上国际步伐。
+一个定期翻译、发布国内外Android优质的技术、开源库、软件架构设计、测试等文章的开源项目,让我们的技术跟上国际步伐。        
+
+我们翻译的文章在能够联系到作者的情况下都会在获得作者授权后进行翻译，并且公开发布。发布的文章中都会保留原文链接、作者名，如有相关的版权协议我们也会一并附上。目前已经联系到的作者列表请参考[授权文档](authorization.md);
 
 
 ## 目录
@@ -53,9 +55,39 @@ https://github.com/bboyfeiyu/android-tech-frontier/issues/1
 
 译者翻译完成之后想本项目发布pull request，校对完成之后会合并您的提交，并且将对应的issue关闭。
 
+## 版权信息
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />该项目下的所有作品由<a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/bboyfeiyu/android-tech-frontier" property="cc:attributionName" rel="cc:attributionURL">Android开发技术前线</a>团队翻译，采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+
+## 免费优秀的电子书
+1. [软件架构模式 ( 翻译中 )](software-architecture-patterns)
 
 <b id="articles" />
 ## 已完成列表
+## 2015.4.12 ( 第五期 )
+| 文章名称 |   译者  |  出处  |
+|---------|--------|-------|
+| [符合Material Design的抽屉导航效果](androidweekly/符合Material Design的抽屉导航效果)  | [wly2014](https://github.com/wly2014)       |   [AndroidWeekly issue #145](http://androidweekly.net/issues/issue-145)    |
+| [深入了解Android图形管道 第一部分](androidweekly/深入了解Android Graphics Pipeline-part-1)  |    [dupengwei](https://github.com/dupengwei)       |   [AndroidWeekly issue #147](https://blog.inovex.de/android-graphics-pipeline-from-button-to-framebuffer-part-1/)    |
+| [深入了解Android图形管道 第二部分](androidweekly/深入了解Android Graphics Pipeline-part-2)  |    [chaossss](https://github.com/chaossss)       |   [AndroidWeekly issue #147](http://androidweekly.net/issues/issue-147)    |
+| [Android性能案例研究续集](androidweekly/Android性能案例研究续集)  |    [shenyansycn](https://github.com/shenyansycn)       |   [AndroidWeekly issue #146](http://androidweekly.net/issues/issue-146)    |
+| [安卓的模糊视图](androidweekly/安卓的模糊视图)  |    [lvtea0105](https://github.com/lvtea0105)       |   [AndroidWeekly issue #145](http://androidweekly.net/issues/issue-145)    |
+| [Google推荐的图片加载库Glide介绍](others/Google推荐的图片加载库Glide介绍)  |    [jianghejie](https://github.com/jianghejie)       |   [inthecheesefactory.com](http://inthecheesefactory.com/blog/get-to-know-glide-recommended-by-google/en)    |
+
+
+
+## 2015.4.8 ( 第四期 )
+| 文章名称 |   译者  |  出处  |
+|---------|--------|-------|
+| [FaceBook推出的Android图片加载库-Fresco](others/FaceBook推出的Android图片加载库-Fresco)  | [ZhaoKaiQiang](https://github.com/https://github.com/ZhaoKaiQiang)       |   [code.facebook.com](https://code.facebook.com/posts/366199913563917/introducing-fresco-a-new-image-library-for-android/)    |
+| [Kotlin for Android (II)创建一个工程](androidweekly/Kotlin for Android (II)创建一个工程)  | [Lollypo](https://github.com/Lollypo)       |   [AndroidWeekly issue #147](http://androidweekly.net/issues/issue-147)|
+| [深入浅出Android 新特性-Transition-Part-1](others/深入浅出Android 新特性-Transition-Part-1)  | [tiiime](https://github.com/tiiime)       |   [androiddesignpatterns.com](http://www.androiddesignpatterns.com/2014/12/activity-fragment-transitions-in-android-lollipop-part1.html)|
+| [在Android调试模式中使用Stetho](androidweekly/在Android调试模式中使用Stetho)  | [BillionWang](https://github.com/BillionWang)       |   [littlerobots.nl](http://littlerobots.nl/blog/stetho-for-android-debug-builds-only/)|
+| [自动化截图－应用分发时的自动截图方案](others/自动化截图－应用分发时的自动截图方案)  | [chaossss](https://github.com/chaossss)       |   [flavienlaurent.com](http://flavienlaurent.com/blog/2014/12/05/screenshot_automation/)|
+
+
+
+
+
 ## 2015.4.3 ( 第三期 )
 | 文章名称 |   译者  |  出处  |
 |---------|--------|-------|
@@ -63,7 +95,7 @@ https://github.com/bboyfeiyu/android-tech-frontier/issues/1
 | [Square 开源库Flow和Mortar的介绍](androidweekly/Square 开源库Flow和Mortar的介绍)  | [sundroid](https://github.com/sundroid)( [chaossss](https://github.com/chaossss) 协同翻译) |  [AndroidWeekly issue #142](http://androidweekly.net/issues/issue-142)  |
 | [使用RxJava.Observable取代AsyncTask和AsyncTaskLoader](androidweekly/使用RxJava.Observable取代AsyncTask和AsyncTaskLoader)  | [ZhaoKaiQiang](https://github.com/ZhaoKaiQiang)       |   [AndroidWeekly issue #142](http://androidweekly.net/issues/issue-142)  |
 | [上传拍下的照片、视频到服务器](others/上传拍下的照片、视频到服务器)  | [chaossss](https://github.com/chaossss)       |   [http://www.androidhive.info/](http://www.androidhive.info/2014/12/android-uploading-camera-image-video-to-server-with-progress-bar/)    |
-| [简化Android的UI开发](others/简化Android的UI开发)  | [chaossss](https://github.com/chaossss)       |   [zserge.com/](http://zserge.com/)    |
+| [简化Android的UI开发](others/简化Android的UI开发)  | [chaossss](https://github.com/chaossss)       |   [zserge.com](http://zserge.com/)    |
 | [安卓字体渲染器](androidweekly/安卓字体渲染器)  | [7heaven](http://github.com/7heaven)       |   [AndroidWeekly issue #102](http://androidweekly.net/issues/issue-102)    |
 | [在Android 5.0中使用JobScheduler](androidweekly/在Android%205.0中使用JobScheduler)  | [Mr.Simple](http://github.com/bboyfeiyu)       |   [AndroidWeekly issue #146](http://androidweekly.net/issues/issue-146)    |
 
